@@ -13,7 +13,7 @@ struct Recipe_ListApp: App {
     @ObservedObject var model = RecipeModel()
     var body: some Scene {
         WindowGroup {
-            RecipeListView()
+            RecipeTabView()
         }
     }
 }

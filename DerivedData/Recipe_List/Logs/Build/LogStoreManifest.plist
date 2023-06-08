@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>09984A67-3469-40E0-802F-5C95AFA13ABB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>09984A67-3469-40E0-802F-5C95AFA13ABB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Recipe_List project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Recipe_List</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Recipe_List</string>
+			<key>timeStartedRecording</key>
+			<real>707893608.25163996</real>
+			<key>timeStoppedRecording</key>
+			<real>707893610.20456898</real>
+			<key>title</key>
+			<string>Build for Previews Recipe_List</string>
+			<key>uniqueIdentifier</key>
+			<string>09984A67-3469-40E0-802F-5C95AFA13ABB</string>
+		</dict>
 		<key>1A6A1B8F-6AE9-4619-A0AD-50B15BC1A329</key>
 		<dict>
 			<key>className</key>
@@ -210,6 +244,40 @@
 			<key>uniqueIdentifier</key>
 			<string>3A3BBFC1-4A62-49AF-8035-2ABDD51E62CD</string>
 		</dict>
+		<key>3CB786CD-A0BF-41E4-8133-C6F58A5D0A7B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3CB786CD-A0BF-41E4-8133-C6F58A5D0A7B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Recipe_List project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Recipe_List</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Recipe_List</string>
+			<key>timeStartedRecording</key>
+			<real>707893755.28618205</real>
+			<key>timeStoppedRecording</key>
+			<real>707893758.20850694</real>
+			<key>title</key>
+			<string>Build for Previews Recipe_List</string>
+			<key>uniqueIdentifier</key>
+			<string>3CB786CD-A0BF-41E4-8133-C6F58A5D0A7B</string>
+		</dict>
 		<key>4C6CAC38-DB0B-4645-A3FB-3BEB9270B4C0</key>
 		<dict>
 			<key>className</key>
@@ -379,6 +447,40 @@
 			<string>Build for Previews Recipe_List</string>
 			<key>uniqueIdentifier</key>
 			<string>9816892E-2D42-4669-886A-82316FFE5539</string>
+		</dict>
+		<key>9D495962-5F4C-4D79-AFA6-DE618543AFF8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9D495962-5F4C-4D79-AFA6-DE618543AFF8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Recipe_List project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Recipe_List</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Recipe_List</string>
+			<key>timeStartedRecording</key>
+			<real>707893661.459975</real>
+			<key>timeStoppedRecording</key>
+			<real>707893662.64054</real>
+			<key>title</key>
+			<string>Build Recipe_List</string>
+			<key>uniqueIdentifier</key>
+			<string>9D495962-5F4C-4D79-AFA6-DE618543AFF8</string>
 		</dict>
 		<key>A329F50F-AF0E-4EFE-BE20-C3D2DFFB358F</key>
 		<dict>
