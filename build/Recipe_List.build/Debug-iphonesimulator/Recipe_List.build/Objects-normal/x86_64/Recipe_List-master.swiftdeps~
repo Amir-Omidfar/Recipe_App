@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "73884dd59f611c8a8ac9b9594159febcf7682862e4dd11551cb659038958ba28"
+build_start_time: [1685842477, 682720000]
+build_end_time: [1685842477, 840382000]
+inputs:
+  "/Users/ApplePro/Desktop/School/PostGrad/iosDev/Recipe_List/Recipe_List/ContentView.swift": !private [1685842225, 806417677]
+  "/Users/ApplePro/Desktop/School/PostGrad/iosDev/Recipe_List/Recipe_List/Recipe_ListApp.swift": !private [1685842225, 800519300]

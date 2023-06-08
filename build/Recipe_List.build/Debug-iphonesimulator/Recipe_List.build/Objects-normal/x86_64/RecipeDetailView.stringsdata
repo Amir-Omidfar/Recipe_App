@@ -1,0 +1,16 @@
+{
+  "source": "/Users/ApplePro/Desktop/School/PostGrad/iosDev/Recipe_List/Recipe_List/Views/RecipeDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Ingredients"
+      },
+      {
+        "comment": "",
+        "key": "Directions"
+      }
+    ]
+  },
+  "version": 1
+}
