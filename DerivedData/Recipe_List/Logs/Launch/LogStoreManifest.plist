@@ -6,51 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>238EE340-D0BB-45F0-B7F7-52E921D98040</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>B67C4B04-2037-4926-B960-F1BB03E15FB3</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
-			<key>fileName</key>
-			<string>Run-Recipe_List-2023.06.03_19-51-31--0700.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasConsoleLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Recipe_List project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Recipe_List</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Recipe_List</string>
-			<key>timeStartedRecording</key>
-			<real>707539891.49289</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Run Recipe_List</string>
-			<key>uniqueIdentifier</key>
-			<string>238EE340-D0BB-45F0-B7F7-52E921D98040</string>
-		</dict>
 		<key>7827C5FE-D824-4583-A073-E350793F70E0</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -95,51 +50,6 @@
 			<string>Run Recipe_List</string>
 			<key>uniqueIdentifier</key>
 			<string>7827C5FE-D824-4583-A073-E350793F70E0</string>
-		</dict>
-		<key>9FAD97D9-0EC5-4BD7-BC0C-5B11886EFAE1</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>E567D8AC-3574-4503-A791-739B99D6DEFB</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
-			<key>fileName</key>
-			<string>Run-Recipe_List-2023.06.06_22-03-13--0700.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasConsoleLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Recipe_List project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Recipe_List</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Recipe_List</string>
-			<key>timeStartedRecording</key>
-			<real>707806993.66316199</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Run Recipe_List</string>
-			<key>uniqueIdentifier</key>
-			<string>9FAD97D9-0EC5-4BD7-BC0C-5B11886EFAE1</string>
 		</dict>
 	</dict>
 </dict>

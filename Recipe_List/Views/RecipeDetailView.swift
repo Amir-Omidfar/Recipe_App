@@ -27,8 +27,8 @@ struct RecipeDetailView: View {
                         .font(.headline)
                         .multilineTextAlignment(.center)
                         .padding([.bottom,.top],5)
-                    ForEach(recipe.ingredients, id: \.self){item in
-                        Text("- " + item).padding(.bottom,0.1)
+                    ForEach(recipe.ingredients){item in
+                        Text("- " + item.name).padding(.bottom,0.1)
                     }
                 }.padding(.horizontal)
                 
