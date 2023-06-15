@@ -6,7 +6,7 @@ extension RecipeDetailView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
         #sourceLocation(file: "/Users/ApplePro/Desktop/School/PostGrad/iosDev/Recipe_List/Recipe_List/Views/RecipeDetailView.swift", line: 57)
         let model = RecipeModel()
-        RecipeDetailView(recipe: model.recipes[__designTimeInteger("#4741.[2].[0].property.[0].[1].arg[0].value.[0].value", fallback: 0)])
+        RecipeDetailView(recipe: model.recipes[__designTimeInteger("#7179.[2].[0].property.[0].[1].arg[0].value.[0].value", fallback: 0)])
     
 #sourceLocation()
     }
@@ -27,12 +27,12 @@ extension RecipeDetailView {
                 // MARK: Ingredients
                 VStack(alignment: .leading){
                     
-                    Text(__designTimeString("#4741.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[1].arg[1].value.[0].arg[0].value", fallback: "Ingredients"))
+                    Text(__designTimeString("#7179.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[1].arg[1].value.[0].arg[0].value", fallback: "Ingredients"))
                         .font(.headline)
                         .multilineTextAlignment(.center)
-                        .padding([.bottom,.top],__designTimeInteger("#4741.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[1].arg[1].value.[0].modifier[2].arg[1].value", fallback: 5))
-                    ForEach(recipe.ingredients, id: \.self){item in
-                        Text(__designTimeString("#4741.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[1].arg[1].value.[1].arg[2].value.[0].arg[0].value.[0]", fallback: "- ") + item).padding(.bottom,__designTimeFloat("#4741.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[1].arg[1].value.[1].arg[2].value.[0].modifier[0].arg[1].value", fallback: 0.1))
+                        .padding([.bottom,.top],__designTimeInteger("#7179.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[1].arg[1].value.[0].modifier[2].arg[1].value", fallback: 5))
+                    ForEach(recipe.ingredients){item in
+                        Text(__designTimeString("#7179.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[1].arg[1].value.[1].arg[1].value.[0].arg[0].value.[0]", fallback: "- ") + item.name).padding(.bottom,__designTimeFloat("#7179.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[1].arg[1].value.[1].arg[1].value.[0].modifier[0].arg[1].value", fallback: 0.1))
                     }
                 }.padding(.horizontal)
                 
@@ -42,11 +42,11 @@ extension RecipeDetailView {
                 // MARK: Directions
                 VStack(alignment: .leading){
                     
-                    Text(__designTimeString("#4741.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[0].arg[0].value", fallback: "Directions"))
+                    Text(__designTimeString("#7179.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[0].arg[0].value", fallback: "Directions"))
                         .font(.headline)
-                        .padding(.bottom,__designTimeInteger("#4741.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[0].modifier[1].arg[1].value", fallback: 5))
-                    ForEach(__designTimeInteger("#4741.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[1].arg[0].value.[0]", fallback: 0)..<recipe.directions.count, id: \.self){index in
-                        Text(String(index+__designTimeInteger("#4741.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[1].arg[2].value.[0].arg[0].value.[0]", fallback: 1))+__designTimeString("#4741.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[1].arg[2].value.[0].arg[0].value.[1]", fallback: ". ")+recipe.directions[index]).padding(.bottom,__designTimeFloat("#4741.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[1].arg[2].value.[0].modifier[0].arg[1].value", fallback: 0.1))
+                        .padding(.bottom,__designTimeInteger("#7179.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[0].modifier[1].arg[1].value", fallback: 5))
+                    ForEach(__designTimeInteger("#7179.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[1].arg[0].value.[0]", fallback: 0)..<recipe.directions.count, id: \.self){index in
+                        Text(String(index+__designTimeInteger("#7179.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[1].arg[2].value.[0].arg[0].value.[0]", fallback: 1))+__designTimeString("#7179.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[1].arg[2].value.[0].arg[0].value.[1]", fallback: ". ")+recipe.directions[index]).padding(.bottom,__designTimeFloat("#7179.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[3].arg[1].value.[1].arg[2].value.[0].modifier[0].arg[1].value", fallback: 0.1))
                     }
                 }.padding(.horizontal)
             }

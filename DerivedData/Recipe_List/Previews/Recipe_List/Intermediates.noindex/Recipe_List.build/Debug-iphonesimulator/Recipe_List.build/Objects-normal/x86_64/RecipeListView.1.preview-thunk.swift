@@ -19,19 +19,19 @@ extension RecipeListView {
                 NavigationLink {
                     RecipeDetailView(recipe: r)
                 } label: {
-                    HStack(spacing: __designTimeFloat("#4725.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[0].arg[1].value.[0].arg[0].value", fallback: 20.0)){
+                    HStack(spacing: __designTimeFloat("#7382.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[0].arg[1].value.[0].arg[0].value", fallback: 20.0)){
                         Image(r.image).resizable()
                             .scaledToFill()
-                            .frame(width: __designTimeInteger("#4725.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[0].arg[1].value.[0].arg[1].value.[0].modifier[2].arg[0].value", fallback: 50), height: __designTimeInteger("#4725.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[0].arg[1].value.[0].arg[1].value.[0].modifier[2].arg[1].value", fallback: 50), alignment: .center)
+                            .frame(width: __designTimeInteger("#7382.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[0].arg[1].value.[0].arg[1].value.[0].modifier[2].arg[0].value", fallback: 50), height: __designTimeInteger("#7382.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[0].arg[1].value.[0].arg[1].value.[0].modifier[2].arg[1].value", fallback: 50), alignment: .center)
                             .clipped()
-                            .cornerRadius(__designTimeInteger("#4725.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[0].arg[1].value.[0].arg[1].value.[0].modifier[4].arg[0].value", fallback: 10))
+                            .cornerRadius(__designTimeInteger("#7382.[1].[1].property.[0].[0].arg[0].value.[0].arg[1].value.[0].arg[1].value.[0].arg[1].value.[0].modifier[4].arg[0].value", fallback: 10))
                         Text(r.name)
                     }
                 }
 
                 
                 
-            }.navigationBarTitle(__designTimeString("#4725.[1].[1].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value", fallback: "All Recipes"))
+            }.navigationBarTitle(__designTimeString("#7382.[1].[1].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value", fallback: "All Recipes"))
         }
     
 #sourceLocation()

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecipeListView: View {
     //Reference ViewModel
-    var model = RecipeModel()
+    @EnvironmentObject var model:RecipeModel
     var body: some View {
         NavigationView{
             List(model.recipes){r in
